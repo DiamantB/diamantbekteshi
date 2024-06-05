@@ -1,0 +1,281 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+
+.navbar{
+   display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+   flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.colon-1{
+    text-align: center;
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.colon-1 img{
+   
+    float: right;
+    margin-right: 100px;
+    max-width: 50%;
+    padding: 50px 0; 
+}
+.colon-1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.categories{
+    margin:70px;
+}
+.colon-3{
+flex-basis: 30%;
+min-width: 250px;
+margin-bottom: 30px;
+}
+.colon-3 img{
+    width: 100%;
+}
+.small-container{
+    
+  max-width: 1080px; 
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+   
+}
+
+.colon-4{
+   
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    transition: 0.5s;
+}
+.colon-4 img{
+    width: 100%;
+}
+.colon-4:hover{
+    transform: translateY(-5px);
+}
+.offer{
+    background:radial-gradient(#fff,#F0E68C);
+    margin-top: 50px;
+    padding: 30px 0;
+    
+}
+
+.offer-img{
+    mix-blend-mode: multiply; 
+
+}
+.colom-6{
+   box-shadow: 0 0 20px 0px rgb(0, 0, 0,0.1);
+}
+.colom-6:hover{
+    transition: 0.5s;
+    transform: translateY(-5px);
+
+}
+
+.brands{
+    margin: 100px auto;
+}
+.colom-7{
+    width: 160px;
+}
+.colom-7 img{
+    margin-top: 50px;
+    width: 100px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.colom-7 img:hover{
+    filter: grayscale(0%);
+}
+.footer{
+    background: black;
+    color:#8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    text-align: left;
+    text-align: center;
+}
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+
+
+/*--------Product page CSS------*/
+.row-1{
+
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+.page-btn{
+    padding-left: 150px;
+    margin: 0 auto 50px;
+
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background:#ff523b;
+    color: white;
+}
+/*------Single product----*/
+
+.single-product{
+    margin-top: 80px;
+
+}
+.single-product .colom-2 img{
+    padding: 0;
+}
+.single-product .colom-2{
+    padding: 20px;
+}
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product input{
+    margin-top: 20px;
+    float: left;
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+.single-product .btn{
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: 24%;
+    cursor: pointer;
+}
+.small-img{
+    flex-basis: 25%;
+   
+    height: 200px;
+    
+}
+.h3{
+    margin-top: 50px 50px;
+    padding-left: 200px;
+}
+/*------Contact us------*/
+
+.contact-us{
+    margin-left: 200px;
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0,0.1);
+    max-width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+   
+
+}
+.contact-us h2{
+    
+    margin-left: 20px;
+    float: right;
+    text-align: center;
+}
+
+.colom-contact-us{
+    padding-left: 50px;
+    float: right;
+}
+.colom-contact-us input{
+    height: fit-content;
+    
+}
